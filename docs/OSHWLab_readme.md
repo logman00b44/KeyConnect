@@ -25,15 +25,15 @@ KeyConnect is a fully open-source, programmable 16-key mechanical macropad desig
 
 ### Top Layer
 Shows component placement, signal routing, and switch layout.
-![Top Layer View](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/top.svg)
+![Top Layer View](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/pcb/previews/top.svg)
 
 ### Bottom Layer
 Displays ground plane, power routing, and connector placement.
-![Bottom Layer View](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/bottom.svg)
+![Bottom Layer View](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/pcb/previews/bottom.svg)
 
 ### 3D Assembled View
 Complete board visualization with all components populated.
-![3D Assembled PCB](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/Assembled_View.png)
+![3D Assembled PCB](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/pcb/previews/Assembled_View.png)
 
 ## Applications
 - ⌨️ Programmable macro shortcuts for productivity
@@ -84,6 +84,14 @@ The modular design and I2C expansion port enable exciting add-ons:
 - 🎛️ Rotary encoder for volume/scrolling control
 - 🎨 Multiple case design variants (low-profile, high-profile, angled)
 - ⌨️ QMK/VIAL firmware port for advanced customization
+
+## 3D Enclosure
+### ⚠ Still In Development ⚠
+
+![3D Enclosure Top](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/3D%20Enclosure/preview/3denclosure_top%20view.png)  
+
+![3D Enclosure Side](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/3D%20Enclosure/preview/3denclosure_side%20view.png)   
+
 
 ## Connect With Me
 **GitHub:** [@logman00b44](https://github.com/logman00b44)  
