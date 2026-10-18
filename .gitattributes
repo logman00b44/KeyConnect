@@ -5,6 +5,8 @@
 *.pcbdoc  binary
 *.schdoc  binary
 *.obj     binary
+*.step    binary
+*.stp     binary
 *.dwg     binary
 *.dxf     binary
 *.bin     binary
@@ -13,3 +15,7 @@
 *.exe     binary
 *.dll     binary
 *.png     binary
+*.svg     -text
+
+# Interactive HTML BOM viewer: keep byte-exact, never normalise line endings
+*.html    -text

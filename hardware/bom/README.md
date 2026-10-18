@@ -6,6 +6,10 @@ Extracted from the EasyEDA Pro / JLCPCB SMT preview export for the
 - [`BOM_PCB2_1.csv`](BOM_PCB2_1.csv) — full table, including manufacturer,
   manufacturer part number, JLCPCB part class, and datasheet links.
 - [`BOM_PCB2_1.md`](BOM_PCB2_1.md) — the same data as a Markdown table.
+- [`InteractiveBOM_PCB2_1_2026-10-18.html`](InteractiveBOM_PCB2_1_2026-10-18.html)
+  — the self-contained viewer exported from EasyEDA. Search, highlight by net,
+  and use its 3D view; open it in a browser (GitHub will offer it as a download
+  rather than rendering it).
 
 ## Summary
 

@@ -15,28 +15,34 @@ without any custom driver.
 
 ### Top layer
 
-Component placement, signal routing, and switch layout. Rendered with
-[tracespace](https://github.com/tracespace/tracespace) directly from the Gerbers
-in [`hardware/gerbers/`](hardware/gerbers).
+Component placement, signal routing, and switch layout, composited from the
+fabrication files in [`hardware/gerbers/`](hardware/gerbers): soldermask, copper
+under the mask, exposed pads, silkscreen and drills, clipped to the board outline.
+See [`mechanical/pcb/previews/README.md`](mechanical/pcb/previews/README.md) for
+how they are generated.
 
 ![Top layer](mechanical/pcb/previews/top.svg)
 
 ### Bottom layer
 
-Ground plane, power routing, and connector placement.
+Ground plane, power routing, and connector placement. The MCU (U5) and all 11 test
+points are mounted on this side. Both flat views use the Gerber coordinate system,
+so bottom-side text reads mirrored here — exactly as it does in any fab viewer.
 
 ![Bottom layer](mechanical/pcb/previews/bottom.svg)
 
 ### Assembled board
 
-Fully populated 3D view (top face). The MCU sits on the *bottom* side — see the
-layer preview above.
+Fully populated 3D views, rebuilt from the Gerber artwork itself (silkscreen,
+soldermask openings and all) with the component bodies taken from the STEP export.
 
-![Assembled board](mechanical/pcb/previews/Assembled_View.png)
+![Assembled board, top side](mechanical/pcb/previews/Assembled_View.png)
+
+![Assembled board, underside](mechanical/pcb/previews/Assembled_View_Bottom.png)
 
 ## Features
 
-- **16× Cherry MX switches** in a 4×4 grid, 19.05 mm pitch
+- **16× Cherry MX switches** in a 4×4 grid, 24 mm pitch
 - **CH32X035G8R6 RISC-V microcontroller** (48 MHz, QSOP-28) — fully
   reprogrammable over USB
 - **USB Type-C** connectivity with an SMBJ5.0A TVS diode and a 500 mA fuse
@@ -89,8 +95,9 @@ Everything needed to get a board made and populate it lives under
 |---|---|---|
 | Gerbers + drills | [`hardware/gerbers/`](hardware/gerbers) | EasyEDA Pro export, 2026-10-18; see the [layer map](hardware/gerbers/README.md) |
 | Bill of materials | [`hardware/bom/BOM_PCB2_1.csv`](hardware/bom/BOM_PCB2_1.csv) | 15 line items, LCSC part numbers + datasheets |
+| Interactive BOM | [`hardware/bom/InteractiveBOM_PCB2_1_2026-10-18.html`](hardware/bom) | Self-contained viewer with a 3D view; open it in a browser |
 | Netlist | [`hardware/schematic/Netlist_PCB2_1_2026-10-18.tel`](hardware/schematic/Netlist_PCB2_1_2026-10-18.tel) | pad-level connectivity |
-| 3D model | [`hardware/exports/3D_PCB2_1_2026-06-11.obj`](hardware/exports) | OBJ + MTL, per-component 3D bodies |
+| 3D model | [`hardware/exports/3D_PCB2_1_2026-10-18.step`](hardware/exports) | STEP assembly: board + the 36 component bodies |
 | PCB source | [`hardware/pcb/PCB2_1.pcbdoc`](hardware/pcb) | EasyEDA Pro |
 | Schematics | [`hardware/schematic/`](hardware/schematic) | EasyEDA Pro `.schdoc` sheets |
 

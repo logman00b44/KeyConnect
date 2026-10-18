@@ -32,8 +32,11 @@ Displays ground plane, power routing, and connector placement.
 ![Bottom Layer View](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/pcb/previews/bottom.svg)
 
 ### 3D Assembled View
-Complete board visualization with all components populated.
+Complete board visualization with all components populated, rebuilt from the Gerber artwork.
 ![3D Assembled PCB](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/pcb/previews/Assembled_View.png)
+
+Seen from below (the MCU and test points are mounted on this side):
+![3D Assembled PCB, underside](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/pcb/previews/Assembled_View_Bottom.png)
 
 ## Applications
 - ⌨️ Programmable macro shortcuts for productivity
@@ -75,8 +78,9 @@ This ensures the maker community can learn from, modify, and improve KeyConnect 
 - ✅ Complete schematics (EasyEDA format) — [`hardware/schematic/`](../hardware/schematic)
 - ✅ PCB layout files with Gerber exports — [`hardware/gerbers/`](../hardware/gerbers)
 - ✅ Bill of Materials with LCSC part numbers — [`hardware/bom/BOM_PCB2_1.csv`](../hardware/bom/BOM_PCB2_1.csv)
+- ✅ Interactive BOM viewer (with 3D view) — [`hardware/bom/InteractiveBOM_PCB2_1_2026-10-18.html`](../hardware/bom/InteractiveBOM_PCB2_1_2026-10-18.html)
 - ✅ Exported netlist — [`hardware/schematic/Netlist_PCB2_1_2026-10-18.tel`](../hardware/schematic/Netlist_PCB2_1_2026-10-18.tel)
-- ✅ 3D model (OBJ + MTL) — [`hardware/exports/`](../hardware/exports)
+- ✅ 3D model (STEP assembly) — [`hardware/exports/`](../hardware/exports)
 - ⏳ 3D case STL files (coming soon)
 - ✅ Firmware source code — [`firmware/`](../firmware)
 - ⏳ Assembly instructions with photos
