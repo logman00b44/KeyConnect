@@ -1,4 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.dxf
-*.dwg
+
+# Explicit binary types (never normalise / diff these)
+*.pcbdoc  binary
+*.schdoc  binary
+*.obj     binary
+*.dwg     binary
+*.dxf     binary
+*.bin     binary
+*.elf     binary
+*.map     -text
+*.exe     binary
+*.dll     binary
+*.png     binary

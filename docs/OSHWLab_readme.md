@@ -15,11 +15,11 @@ KeyConnect is a fully open-source, programmable 16-key mechanical macropad desig
 
 ## Technical Specifications
 - **Microcontroller:** CH32X035G8R6 (RISC-V, 48MHz)
-- **Power:** USB-powered, 3.3V regulated (AP2112K)
+- **Power:** USB-powered, 3.3V regulated (LM1117T-3.3, TO-220)
 - **Connectivity:** USB 2.0 Full Speed, I2C peripheral/master
 - **Protection:** TVS diodes, 500mA fuse
 - **PCB:** 2-layer, FR-4
-- **Dimensions:** 134mm × 135mm × 1.6mm
+- **Dimensions:** 135mm × 135mm × 1.6mm
 
 ## PCB Design Views
 
@@ -46,13 +46,16 @@ Complete board visualization with all components populated.
 
 **Major components:**
 - 16× Cherry MX switches
-- 1× CH32X035G8R6 RISC-V microcontroller
+- 1× CH32X035G8R6 RISC-V microcontroller (QSOP-28, bottom side)
 - 1× USB Type-C connector
-- Power regulation & protection components
+- 1× LM1117T-3.3 regulator (TO-220) + SMBJ5.0A TVS diode + 500mA fuse
+- 1× DSWB03LHGET mode slide switch
+- 1× XH 2.54mm 4-pin I2C expansion header
+- 11× test points
 - Custom 3D-printed case
 
 ## Assembly Difficulty
-🔧 **Beginner-Friendly** - All components are through-hole except 3 SMD parts (USB connector, regulator, MCU). Perfect for learning PCB assembly!
+🔧 **Beginner-Friendly** - All components are through-hole except 6 SMD parts (MCU, USB-C connector, TVS diode, fuse, and two bulk capacitors). Perfect for learning PCB assembly!
 
 ## Current Development Status
 ✅ PCB design complete  
@@ -69,9 +72,11 @@ All project files are released under permissive licenses following industry best
 This ensures the maker community can learn from, modify, and improve KeyConnect while maintaining proper attribution.
 
 ## Complete Documentation Package
-- ✅ Complete schematics (EasyEDA format)
-- ✅ PCB layout files with Gerber exports
-- ✅ Bill of Materials with LCSC part numbers
+- ✅ Complete schematics (EasyEDA format) — [`hardware/schematic/`](../hardware/schematic)
+- ✅ PCB layout files with Gerber exports — [`hardware/gerbers/`](../hardware/gerbers)
+- ✅ Bill of Materials with LCSC part numbers — [`hardware/bom/BOM_PCB2_1.csv`](../hardware/bom/BOM_PCB2_1.csv)
+- ✅ Exported netlist — [`hardware/schematic/Netlist_PCB2_1_2026-10-18.tel`](../hardware/schematic/Netlist_PCB2_1_2026-10-18.tel)
+- ✅ 3D model (OBJ + MTL) — [`hardware/exports/`](../hardware/exports)
 - ⏳ 3D case STL files (coming soon)
 - ✅ Firmware source code — [`firmware/`](../firmware)
 - ⏳ Assembly instructions with photos

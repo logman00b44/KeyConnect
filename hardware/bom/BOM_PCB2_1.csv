@@ -1,0 +1,16 @@
+Designators,Qty,Side,Value / Part,PCB Footprint,LCSC Part #,Manufacturer,Manufacturer Part #,JLCPCB Class,Datasheet
+C1 C5 C4 C2,4,top,100nF,CAP-TH_L5.8-W3.6-P5.0-D0.6,C5632426,KNSCHA(科尼盛),178MU0002,Extended Part,https://item.szlcsc.com/datasheet/178MU0002/6552581.html
+C6 C3,2,top,47uF,CAP-SMD_L6.0-W3.2-R-RD,C506634,VISHAY(威世),593D476X9010C2TE3,Extended Part,https://atta.szlcsc.com/upload/public/pdf/source/20200402/C506619_E03DB4472F260812590AAD21BE002161.pdf
+CN1,1,top,ZX-XH2.54-4PWZ,CONN-TH_4P-P2.50_ZX-XH2.54-4PWZ,C7429643,Megastar(兆星),ZX-XH2.54-4PWZ,Extended Part,https://item.szlcsc.com/datasheet/ZX-XH2.54-4PWZ/8427560.html
+D1,1,top,SMBJ5.0A,SMB_L4.6-W3.6-LS5.4-RD,C50087807,JDTfuse(集电通),SMBJ5.0A,Extended Part,https://item.szlcsc.com/datasheet/SMBJ5.0A/52656641.html
+F1,1,top,500mA/24V,F1206,C2984676,DOWO(东沃),500mA/24V,Extended Part,https://item.szlcsc.com/datasheet/500mA%252F24V/3426281.html
+GND VBUS VCC RESET PB9 PB8 PA12 FW_MODE PA13 D+ D-,11,bottom,Test-Point,Test-Point-0.5mm,,,,,
+R_CC2 R_CC1,2,top,5.1kΩ,RES-TH_BD2.3-L6.5-P10.50-D0.5,C714010,华星机电,MF1/4W-5.1KΩ±1%T52,Extended Part,https://atta.szlcsc.com/upload/public/pdf/source/20200731/C713882_AE8EB1102749D7E4FB4FB13DC898C429.pdf
+R1,1,top,10kΩ,RES-TH_BD2.3-L6.5-P10.50-D0.5,C119347,CCO(千志电子),MF1/4W-10KΩ±1% T,Extended Part,https://atta.szlcsc.com/upload/public/pdf/source/20190910/C427326_62A6D058BC0FF74963A2F22379CA06CE.pdf
+R2 R3,2,top,22Ω,RES-TH_BD2.4-L6.3-P10.30-D0.6,C1365706,YAGEO(国巨),CFR-25JB-52-22R,Extended Part,https://item.szlcsc.com/datasheet/CFR-25JB-52-22R/1455995.html
+R4 R5,2,top,4.7kΩ,RES-TH_BD2.3-L6.5-P10.50-D0.5,C119339,CCO(千志电子),MF1/4W-4.7KΩ±1% T,Extended Part,https://item.szlcsc.com/datasheet/MF1%252F4W-4.7K%25CE%25A9%25C2%25B11%2525%2520T/120608.html
+SW1,1,top,DSWB03LHGET,SW-TH_DSWB03LHGET,C99420,YE,DSWB03LHGET,Extended Part,https://item.szlcsc.com/datasheet/DSWB03LHGET/100634.html
+U5,1,bottom,CH32X035G8R6,QSOP-28_L9.9-W3.9-P0.64-LS6.0-BL,C49118551,WCH(南京沁恒),CH32X035G8R6,Extended Part,https://item.szlcsc.com/datasheet/CH32X035G8R6/51503242.html
+U14 U6 U10 U1 U15 U11 U7 U2 U12 U3 U16 U8 U4 U17 U9 U13,16,top,CherryMX,CherryMX_9.75u,,,,,
+U19,1,top,LM1117T-3.3,TO-220-3_L10.0-W4.5-P2.54-L,C498321,HGSEMI(华冠),LM1117T-3.3,Extended Part,https://item.szlcsc.com/datasheet/LM1117T-3.3/510061.html
+USB1,1,top,TYPE-C16PIN,USB-C-SMD_TYPE-C16PIN,C393939,SHOU HAN(首韩),TYPE-C16PIN,Extended Part,https://item.szlcsc.com/datasheet/TYPE-C16PIN/372551.html

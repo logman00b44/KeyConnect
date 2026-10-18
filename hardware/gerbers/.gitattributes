@@ -1,0 +1,2 @@
+# Fabrication files must be byte-exact — never apply EOL normalisation here.
+* -text
