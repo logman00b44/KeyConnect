@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------------
+# KeyConnect - repository ignore rules
+#
+# Firmware build output is ignored, EXCEPT the known-good binaries that are
+# intentionally committed under firmware/prebuilt/ (see firmware/README.md).
+# ---------------------------------------------------------------------------
+
+# RISC-V GCC / make build output
+*.o
+*.d
+*.a
+*.lst
+*.lss
+*.hex
+main.elf
+main.map
+main.bin
+usbdevice.elf
+usbdevice.map
+
+# Firmware compiler objects (does NOT match the Wavefront .obj models
+# under hardware/exports/)
+firmware/**/*.obj
+
+# CMake / PlatformIO
+.pio/
+.cache/
+build/
+cmake-build-*/
+
+# Visual Studio / WinUI / NuGet
+.vs/
+obj/
+[Bb]in/
+*.user
+*.suo
+*.sln.docstates
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# Exceptions: artifacts that are intentionally tracked
+# ---------------------------------------------------------------------------
+!firmware/prebuilt/main.bin
+!firmware/prebuilt/main.elf
+!firmware/prebuilt/main.map

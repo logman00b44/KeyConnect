@@ -1,0 +1,47 @@
+;
+; KeyConnect R1 Macro Keyboard - INF for proper device display name
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = HIDClass
+ClassGUID   = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Provider    = %ManufacturerName%
+DriverVer   = 06/04/2026,1.0.0.0
+CatalogFile = keyconnect.cat
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[SourceDisksFiles]
+hidusb.sys  = 1
+kbdhid.sys  = 1
+kbdclass.sys = 1
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[Manufacturer]
+%ManufacturerName% = KeyConnect, NTx86, NTamd64
+
+[KeyConnect.NTx86]
+%USB\VID_2709&PID_0001.DeviceDesc% = HID_Inst, USB\VID_2709&PID_0001
+
+[KeyConnect.NTamd64]
+%USB\VID_2709&PID_0001.DeviceDesc% = HID_Inst, USB\VID_2709&PID_0001
+
+[HID_Inst]
+Include     = input.inf
+Needs       = HID_Inst.NT
+
+[HID_Inst.HW]
+AddReg = HID_Inst.AddReg
+
+[HID_Inst.AddReg]
+HKR,,,,"KeyConnect R1 Macro Keyboard"
+HKR,,DeviceDesc,,"KeyConnect R1 Macro Keyboard"
+
+[Strings]
+ManufacturerName = "KeyConnect"
+DiskName        = "KeyConnect R1 Installation Disk"
+USB\VID_2709&PID_0001.DeviceDesc = "KeyConnect R1 Macro Keyboard"

@@ -59,7 +59,7 @@ Complete board visualization with all components populated.
 ✅ Schematic verified  
 ✅ BOM optimized with LCSC part numbers  
 ⏳ 3D case design in progress  
-⏳ Firmware development ongoing  
+✅ Firmware source available in [`firmware/`](../firmware)  
 
 ## Open-Source Commitment
 All project files are released under permissive licenses following industry best practices:
@@ -73,9 +73,9 @@ This ensures the maker community can learn from, modify, and improve KeyConnect 
 - ✅ PCB layout files with Gerber exports
 - ✅ Bill of Materials with LCSC part numbers
 - ⏳ 3D case STL files (coming soon)
-- ⏳ Firmware source code (in development)
+- ✅ Firmware source code — [`firmware/`](../firmware)
 - ⏳ Assembly instructions with photos
-- ⏳ Programming guide and configuration tool
+- ✅ Programming guide and host configuration tool (hidapi CLI + WinUI 3 GUI)
 
 ## Future Enhancement Possibilities
 The modular design and I2C expansion port enable exciting add-ons:

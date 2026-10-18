@@ -1,0 +1,15 @@
+namespace KeyConnectConfig
+{
+    [default_interface]
+    runtimeclass KeyPickerDialog : Microsoft.UI.Xaml.Controls.ContentDialog
+    {
+        KeyPickerDialog();
+        Int32 KeyIndex;
+        String KeyLabel;
+        String PinName;
+        Int32 CurrentMod;
+        Int32 CurrentKey;
+        Int32 ResultMod { get; };
+        Int32 ResultKey { get; };
+    }
+}

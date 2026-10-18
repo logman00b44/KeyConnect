@@ -1,0 +1,29 @@
+<ContentDialog
+    x:Class="KeyConnectConfig.KeyPickerDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Configure Key"
+    PrimaryButtonText="OK"
+    SecondaryButtonText="Cancel"
+    DefaultButton="Primary">
+
+    <StackPanel Spacing="8" MinWidth="300">
+        <TextBlock x:Name="KeyInfoText" FontWeight="Bold" FontSize="16"/>
+
+        <TextBlock Text="Modifiers:" Margin="0,4,0,0"/>
+        <StackPanel Orientation="Horizontal" Spacing="16">
+            <CheckBox x:Name="CtrlCheck" Content="Ctrl" Checked="OnModChanged" Unchecked="OnModChanged"/>
+            <CheckBox x:Name="ShiftCheck" Content="Shift" Checked="OnModChanged" Unchecked="OnModChanged"/>
+            <CheckBox x:Name="AltCheck" Content="Alt" Checked="OnModChanged" Unchecked="OnModChanged"/>
+            <CheckBox x:Name="WinCheck" Content="Win" Checked="OnModChanged" Unchecked="OnModChanged"/>
+        </StackPanel>
+
+        <TextBlock Text="Keycode:" Margin="0,4,0,0"/>
+        <ComboBox x:Name="KeycodeCombo" SelectedIndex="0" MinWidth="200"/>
+
+        <TextBlock Text="Preview:" Margin="0,8,0,0" FontWeight="SemiBold"/>
+        <Border BorderThickness="1" BorderBrush="{ThemeResource ControlStrokeColorDefaultBrush}" Padding="8">
+            <TextBlock x:Name="PreviewText" Text="(none)" FontSize="14"/>
+        </Border>
+    </StackPanel>
+</ContentDialog>

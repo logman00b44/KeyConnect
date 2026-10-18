@@ -1,0 +1,503 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.mini_pad
+                0x00000000       0xa0 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text._puts    0x00000000       0x42 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.mini_itoa.part.0
+                0x00000000       0x90 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.__puts_uart
+                0x00000000       0x20 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strlen   0x00000000       0x12 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.mini_vpprintf
+                0x00000000      0x1da C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.printf   0x00000000       0x30 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.vprintf  0x00000000       0x16 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.mini_vsnprintf
+                0x00000000       0x3a C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.snprintf
+                0x00000000       0x20 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.sprintf  0x00000000       0x2a C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.memset   0x00000000       0x12 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strcpy   0x00000000       0x14 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strncpy  0x00000000       0x1c C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strcmp   0x00000000       0x1a C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strncmp  0x00000000       0x2e C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strchr   0x00000000       0x16 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strrchr  0x00000000       0x3c C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.memcmp   0x00000000       0x20 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.memmove  0x00000000       0x5e C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.memchr   0x00000000       0x1a C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strnlen  0x00000000       0x2a C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.twoway_strstr
+                0x00000000      0x258 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.strstr   0x00000000      0x12a C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .rodata.puts.str1.4
+                0x00000000        0x2 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.puts     0x00000000       0x40 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.setjmp   0x00000000       0x38 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.longjmp  0x00000000       0x3c C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .comment       0x00000000       0x30 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .comment       0x00000000       0x30 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVG3WyW.debug.temp.o
+ .comment       0x00000000       0x30 C:\Users\LOGMAN~1\AppData\Local\Temp\ccMvSZdV.debug.temp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00000000         0x0000f800         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\LOGMAN~1\AppData\Local\Temp\ccuhNLQX.o
+LOAD C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+LOAD C:\Users\LOGMAN~1\AppData\Local\Temp\ccVG3WyW.debug.temp.o
+LOAD C:\Users\LOGMAN~1\AppData\Local\Temp\ccMvSZdV.debug.temp.o
+LOAD C:\Users\LOGMAN~1\AppData\Local\Temp\ccnVUU6G.o
+LOAD C:/Users/Logman_Bayramov/.platformio/packages/toolchain-riscv32-esp/bin/../lib/gcc/riscv32-esp-elf/13.2.0\libgcc.a
+
+.init           0x00000000       0xe0
+                0x00000000                        _sinit = .
+                0x00000000                        . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x00000000       0xde C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                0x00000000                InterruptVector
+                0x00000000                InterruptVectorDefault
+                0x000000e0                        . = ALIGN (0x4)
+ *fill*         0x000000de        0x2 
+                0x000000e0                        _einit = .
+
+.text           0x000000e0     0x1000
+                0x000000e0                        . = ALIGN (0x4)
+ *(.text)
+ *(.text.*)
+ .text.DelaySysTick
+                0x000000e0       0x32 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.DMA7FastCopy
+                0x00000112       0x30 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.USBFS_InternalFinishSetup
+                0x00000142       0x40 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.flash_wait_busy
+                0x00000182        0xc C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.i2c_delay
+                0x0000018e        0x4 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.i2c_stop
+                0x00000192       0x24 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.i2c_write_byte
+                0x000001b6       0x84 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.pcf8574_write
+                0x0000023a       0x54 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.lcd_nibble
+                0x0000028e       0x38 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.lcd_cmd  0x000002c6       0x2a C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.lcd_str  0x000002f0       0x36 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.HandleHidUserReportDataIn.constprop.0
+                0x00000326       0x98 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.ep_send_wait.constprop.0.isra.0
+                0x000003be       0x96 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .text.handle_reset
+                0x00000454       0x76 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                0x00000454                handle_reset
+ .text.vector_handler
+                0x000004ca      0x58c C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                0x000004ca                OPCM_IRQHandler
+                0x000004ca                EXTI2_IRQHandler
+                0x000004ca                TIM8_TRG_COM_IRQHandler
+                0x000004ca                TIM8_CC_IRQHandler
+                0x000004ca                USART_WKUP_IRQHandler
+                0x000004ca                UART8_IRQHandler
+                0x000004ca                SPI4_IRQHandler
+                0x000004ca                NFC_IRQHandler
+                0x000004ca                DFSDM0_IRQHandler
+                0x000004ca                TIM1_CC_IRQHandler
+                0x000004ca                HardFault_Handler
+                0x000004ca                TIM10_IRQHandler
+                0x000004ca                GPIOB_IRQHandler
+                0x000004ca                IPC_CH2_Handler
+                0x000004ca                USBPD_IRQHandler
+                0x000004ca                TIM6_IRQHandler
+                0x000004ca                GPIOA_IRQHandler
+                0x000004ca                SysTick_Handler
+                0x000004ca                CAN3_RX1_IRQHandler
+                0x000004ca                I3C_ER_IRQHandler
+                0x000004ca                PVD_IRQHandler
+                0x000004ca                SDIO_IRQHandler
+                0x000004ca                TIM9_BRK_IRQHandler
+                0x000004ca                USBWakeUp_IRQHandler
+                0x000004ca                DMA2_Channel8_IRQHandler
+                0x000004ca                CAN2_RX1_IRQHandler
+                0x000004ca                EXTI3_IRQHandler
+                0x000004ca                HSEM_Handler
+                0x000004ca                UART1_IRQHandler
+                0x000004ca                USBHS_IRQHandler
+                0x000004ca                LPTIM2_IRQHandler
+                0x000004ca                DMA2_Channel9_IRQHandler
+                0x000004ca                TIM10_CC_IRQHandler
+                0x000004ca                EXTI25_16_IRQHandler
+                0x000004ca                I2C3_ER_IRQHandler
+                0x000004ca                UART0_IRQHandler
+                0x000004ca                USART8_IRQHandler
+                0x000004ca                EXTI0_IRQHandler
+                0x000004ca                I2C2_EV_IRQHandler
+                0x000004ca                TIM10_TRG_COM_IRQHandler
+                0x000004ca                LPTIM_IRQHandler
+                0x000004ca                CAN1_RX0_IRQHandler
+                0x000004ca                CAN3_SCE_IRQHandler
+                0x000004ca                CAN2_SCE_IRQHandler
+                0x000004ca                ADC1_2_IRQHandler
+                0x000004ca                BB_IRQHandler
+                0x000004ca                Break_Point_Handler
+                0x000004ca                IPC_CH0_Handler
+                0x000004ca                TIM2_CC_IRQHandler
+                0x000004ca                SPI1_IRQHandler
+                0x000004ca                USART5_IRQHandler
+                0x000004ca                TAMPER_IRQHandler
+                0x000004ca                TMR0_IRQHandler
+                0x000004ca                AWU_IRQHandler
+                0x000004ca                EXTI7_0_IRQHandler
+                0x000004ca                CAN2_RX0_IRQHandler
+                0x000004ca                OSCWakeUp_IRQHandler
+                0x000004ca                TIM8_UP_IRQHandler
+                0x000004ca                Ecall_M_Mode_Handler
+                0x000004ca                ECDC_IRQHandler
+                0x000004ca                SDMMC_IRQHandler
+                0x000004ca                USART7_IRQHandler
+                0x000004ca                DMA2_Channel2_IRQHandler
+                0x000004ca                DMA1_Channel4_IRQHandler
+                0x000004ca                ADC1_IRQHandler
+                0x000004ca                TIM2_BRK_IRQHandler
+                0x000004ca                USART6_IRQHandler
+                0x000004ca                CAN3_RX0_IRQHandler
+                0x000004ca                HSADC_IRQHandler
+                0x000004ca                TIM9_UP_IRQHandler
+                0x000004ca                USART3_IRQHandler
+                0x000004ca                RTC_IRQHandler
+                0x000004ca                DMA1_Channel7_IRQHandler
+                0x000004ca                LED_IRQHandler
+                0x000004ca                CAN1_RX1_IRQHandler
+                0x000004ca                DVP_IRQHandler
+                0x000004ca                UART5_IRQHandler
+                0x000004ca                USBSS_IRQHandler
+                0x000004ca                SWPMI_IRQHandler
+                0x000004ca                USBPDWakeUp_IRQHandler
+                0x000004ca                EXTI15_8_IRQHandler
+                0x000004ca                TIM4_IRQHandler
+                0x000004ca                DMA2_Channel1_IRQHandler
+                0x000004ca                SWPMI_WKUP_IRQHandler
+                0x000004ca                USBPD_WKUP_IRQHandler
+                0x000004ca                I2C1_EV_IRQHandler
+                0x000004ca                USBSSWakeup_IRQHandler
+                0x000004ca                UART2_IRQHandler
+                0x000004ca                USART4_IRQHandler
+                0x000004ca                PWMX_IRQHandler
+                0x000004ca                DMA1_Channel6_IRQHandler
+                0x000004ca                UART4_IRQHandler
+                0x000004ca                DMA2_Channel4_IRQHandler
+                0x000004ca                TIM3_IRQHandler
+                0x000004ca                RCC_IRQHandler
+                0x000004ca                TIM1_TRG_COM_IRQHandler
+                0x000004ca                DMA1_Channel1_IRQHandler
+                0x000004ca                DMA2_Channel7_IRQHandler
+                0x000004ca                QSPI1_IRQHandler
+                0x000004ca                EXTI15_10_IRQHandler
+                0x000004ca                ADC_IRQHandler
+                0x000004ca                IPC_CH3_Handler
+                0x000004ca                DMA1_Channel8_IRQHandler
+                0x000004ca                I3C_EV_IRQHandler
+                0x000004ca                TMR2_IRQHandler
+                0x000004ca                I3C_WKUP_IRQHandler
+                0x000004ca                DefaultIRQHandler
+                0x000004ca                TIM12_IRQHandler
+                0x000004ca                TIM7_IRQHandler
+                0x000004ca                CAN2_TX_IRQHandler
+                0x000004ca                TIM5_IRQHandler
+                0x000004ca                USBSS_LINK_IRQHandler
+                0x000004ca                I2C3_EV_IRQHandler
+                0x000004ca                USB_IRQHandler
+                0x000004ca                EXTI9_5_IRQHandler
+                0x000004ca                PIOC_IRQHandler
+                0x000004ca                TIM9_IRQHandler
+                0x000004ca                LTDC_IRQHandler
+                0x000004ca                SAI_IRQHandler
+                0x000004ca                SPI2_IRQHandler
+                0x000004ca                OSC32KCal_IRQHandler
+                0x000004ca                IPC_CH1_Handler
+                0x000004ca                I2C_IRQHandler
+                0x000004ca                LPTIM1_WKUP_IRQHandler
+                0x000004ca                TIM10_BRK_IRQHandler
+                0x000004ca                TIM9_CC_IRQHandler
+                0x000004ca                CAN1_TX_IRQHandler
+                0x000004ca                DMA2_Channel5_IRQHandler
+                0x000004ca                USB2_IRQHandler
+                0x000004ca                USBHSWakeUp_IRQHandler
+                0x000004ca                DMA1_Channel5_IRQHandler
+                0x000004ca                EXTI4_IRQHandler
+                0x000004ca                USB_LP_CAN1_RX0_IRQHandler
+                0x000004ca                QSPI2_IRQHandler
+                0x000004ca                RNG_IRQHandler
+                0x000004ca                USB_HP_CAN1_TX_IRQHandler
+                0x000004ca                LLE_IRQHandler
+                0x000004ca                CMPWakeUp_IRQHandler
+                0x000004ca                DMA1_Channel3_IRQHandler
+                0x000004ca                FSMC_IRQHandler
+                0x000004ca                ETH_IRQHandler
+                0x000004ca                TIM1_UP_IRQHandler
+                0x000004ca                LPTIMWakeUp_IRQHandler
+                0x000004ca                WWDG_IRQHandler
+                0x000004ca                USBHSWakeup_IRQHandler
+                0x000004ca                DMA2_Channel11_IRQHandler
+                0x000004ca                WDOG_BAT_IRQHandler
+                0x000004ca                Ecall_U_Mode_Handler
+                0x000004ca                I2C4_EV_IRQHandler
+                0x000004ca                CAN3_TX_IRQHandler
+                0x000004ca                TMR3_IRQHandler
+                0x000004ca                DMA2_Channel6_IRQHandler
+                0x000004ca                TIM2_IRQHandler
+                0x000004ca                SW_Handler
+                0x000004ca                TIM1_BRK_IRQHandler
+                0x000004ca                GPHA_IRQHandler
+                0x000004ca                OPA_IRQHandler
+                0x000004ca                DMA2_Channel10_IRQHandler
+                0x000004ca                EXTI1_IRQHandler
+                0x000004ca                SPI0_IRQHandler
+                0x000004ca                USB2_HOST_IRQHandler
+                0x000004ca                LPTIM2_WKUP_IRQHandler
+                0x000004ca                RTCAlarm_IRQHandler
+                0x000004ca                TIM11_IRQHandler
+                0x000004ca                TIM10_UP_IRQHandler
+                0x000004ca                TIM9_TRG_COM_IRQHandler
+                0x000004ca                UART7_IRQHandler
+                0x000004ca                USART2_IRQHandler
+                0x000004ca                UART6_IRQHandler
+                0x000004ca                UHSIF_IRQHandler
+                0x000004ca                ETHWakeUp_IRQHandler
+                0x000004ca                I2C2_ER_IRQHandler
+                0x000004ca                DMA1_Channel2_IRQHandler
+                0x000004ca                TIM8_BRK_IRQHandler
+                0x000004ca                TIM2_TRG_IRQHandler
+                0x000004ca                CAN1_SCE_IRQHandler
+                0x000004ca                FLASH_IRQHandler
+                0x000004ca                USBFSWakeUp_IRQHandler
+                0x000004ca                USART1_IRQHandler
+                0x000004ca                OTG_FS_IRQHandler
+                0x000004ca                SPI3_IRQHandler
+                0x000004ca                USBFS_WakeUp_IRQHandler
+                0x000004ca                UART3_IRQHandler
+                0x000004ca                I2C1_ER_IRQHandler
+                0x000004ca                FMC_IRQHandler
+                0x000004ca                USB2_DEVICE_IRQHandler
+                0x000004ca                LPTIM1_IRQHandler
+                0x000004ca                DFSDM1_IRQHandler
+                0x000004ca                TMR1_IRQHandler
+                0x000004ca                I2C4_ER_IRQHandler
+                0x000004ca                SERDES_IRQHandler
+                0x000004ca                DMA2_Channel3_IRQHandler
+                0x000004cc                NMI_Handler
+                0x000004cc                NMI_RCC_CSS_IRQHandler
+ .text.memcpy   0x00000a56       0x1c C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                0x00000a56                memcpy
+ .text.SystemInit
+                0x00000a72       0x22 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                0x00000a72                SystemInit
+ .text.startup.main
+                0x00000a94      0x480 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                0x00000a94                main
+ *(.rodata)
+ *(.rodata*)
+ *fill*         0x00000f14        0x0 
+ .rodata.main.str1.4
+                0x00000f14       0x16 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ *fill*         0x00000f2a        0x2 
+ .rodata.vector_handler
+                0x00000f2c       0x5c C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .rodata.key_rep_desc
+                0x00000f88       0x2c C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .rodata.config_descriptor
+                0x00000fb4       0x22 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ *fill*         0x00000fd6        0x2 
+ .rodata.device_descriptor
+                0x00000fd8       0x12 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ *fill*         0x00000fea        0x2 
+ .rodata.KEY_PINS
+                0x00000fec       0x80 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .rodata.KEY_MAP
+                0x0000106c       0x20 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .rodata.descriptor_list
+                0x0000108c       0x54 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ *(.gnu.linkonce.t.*)
+                0x000010e0                        . = ALIGN (0x4)
+
+.fini           0x000010e0        0x0
+ *(SORT_NONE(.fini))
+                0x000010e0                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x000010e0        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x000010e0        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x000010e0        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dalign         0x20000000        0x0 load address 0x000010e0
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        PROVIDE (_data_vma = .)
+
+.dlalign        0x000010e0        0x0
+                0x000010e0                        . = ALIGN (0x4)
+                0x000010e0                        PROVIDE (_data_lma = .)
+
+.data           0x20000000       0x58 load address 0x000010e0
+                0x20000000                        . = ALIGN (0x4)
+                0x200003fc                        __global_pointer$ = (. + 0x3fc)
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ *(.gnu.linkonce.d.*)
+                0x20000000                        . = ALIGN (0x8)
+ *(.sdata .sdata.*)
+ *(.sdata2*)
+ *(.gnu.linkonce.s.*)
+                0x20000000                        . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ .srodata.string2
+                0x20000000       0x36 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ *fill*         0x20000036        0x2 
+ .srodata.string1
+                0x20000038       0x18 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .srodata.string0
+                0x20000050        0x4 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .srodata.probe.0
+                0x20000054        0x4 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                0x20000058                        . = ALIGN (0x4)
+                0x20000058                        PROVIDE (_edata = .)
+
+.rela.dyn       0x20000058        0x0 load address 0x00001138
+ .rela.text.handle_reset
+                0x20000058        0x0 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+
+.bss            0x20000058      0x120 load address 0x00001138
+                0x20000058                        . = ALIGN (0x4)
+                0x20000058                        PROVIDE (_sbss = .)
+ *(.sbss*)
+ .sbss.lcd_addr
+                0x20000058        0x1 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .sbss.save_requested
+                0x20000059        0x1 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .sbss.read_cursor_key
+                0x2000005a        0x1 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .sbss.read_cursor_layer
+                0x2000005b        0x1 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ .bss.prev_stable
+                0x2000005c       0x10 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .bss.last_change
+                0x2000006c       0x40 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .bss.stable_state
+                0x200000ac       0x10 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .bss.current_config
+                0x200000bc       0x28 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .bss.FSUSBCTX  0x200000e4       0x94 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+                0x20000178                        . = ALIGN (0x4)
+                0x20000178                        PROVIDE (_ebss = .)
+                [!provide]                        PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+                0x20005000                        PROVIDE (_eusrstack = (ORIGIN (RAM) + LENGTH (RAM)))
+
+/DISCARD/
+ *(.note .note.*)
+ *(.eh_frame .eh_frame.*)
+ *(.comment .comment.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.ARM.exidx*)
+OUTPUT(examples/Keyboard_Firmware/main.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0x41
+ .riscv.attributes
+                0x00000000       0x41 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+
+.debug_info     0x00000000     0x41ff
+ .debug_info    0x00000000     0x1bea C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .debug_info    0x00001bea      0xef5 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVG3WyW.debug.temp.o
+                0x00001bea                ch32fun.c.2a8f18db
+ .debug_info    0x00002adf     0x1720 C:\Users\LOGMAN~1\AppData\Local\Temp\ccMvSZdV.debug.temp.o
+                0x00002adf                main.c.0c07975e
+
+.debug_abbrev   0x00000000      0x827
+ .debug_abbrev  0x00000000      0x204 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .debug_abbrev  0x00000204      0x26d C:\Users\LOGMAN~1\AppData\Local\Temp\ccVG3WyW.debug.temp.o
+ .debug_abbrev  0x00000471      0x3b6 C:\Users\LOGMAN~1\AppData\Local\Temp\ccMvSZdV.debug.temp.o
+
+.debug_loclists
+                0x00000000     0x1f52
+ .debug_loclists
+                0x00000000     0x1f52 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+
+.debug_aranges  0x00000000      0x198
+ .debug_aranges
+                0x00000000      0x198 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+
+.debug_rnglists
+                0x00000000      0x459
+ .debug_rnglists
+                0x00000000      0x459 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+
+.debug_line     0x00000000     0x41cf
+ .debug_line    0x00000000     0x40cf C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+ .debug_line    0x000040cf       0x72 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVG3WyW.debug.temp.o
+ .debug_line    0x00004141       0x8e C:\Users\LOGMAN~1\AppData\Local\Temp\ccMvSZdV.debug.temp.o
+
+.debug_str      0x00000000     0x12a3
+ .debug_str     0x00000000     0x12a3 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                                0x12a (size before relaxing)
+ .debug_str     0x000012a3      0x5c2 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVG3WyW.debug.temp.o
+ .debug_str     0x000012a3      0xf55 C:\Users\LOGMAN~1\AppData\Local\Temp\ccMvSZdV.debug.temp.o
+
+.debug_line_str
+                0x00000000      0x2c4
+ .debug_line_str
+                0x00000000      0x2c4 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
+                                 0xe4 (size before relaxing)
+ .debug_line_str
+                0x000002c4      0x235 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVG3WyW.debug.temp.o
+ .debug_line_str
+                0x000002c4      0x298 C:\Users\LOGMAN~1\AppData\Local\Temp\ccMvSZdV.debug.temp.o
+
+.debug_frame    0x00000000      0x598
+ .debug_frame   0x00000000      0x598 C:\Users\LOGMAN~1\AppData\Local\Temp\ccVpc0S3.ltrans0.ltrans.o
