@@ -35,6 +35,8 @@ so bottom-side text reads mirrored here — exactly as it does in any fab viewer
 
 Fully populated 3D views, rebuilt from the Gerber artwork itself (silkscreen,
 soldermask openings and all) with the component bodies taken from the STEP export.
+The switch housings are drawn translucent so the silkscreen under them stays
+visible, and the DIP switch is picked out in red.
 
 ![Assembled board, top side](mechanical/pcb/previews/Assembled_View.png)
 

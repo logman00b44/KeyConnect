@@ -75,6 +75,12 @@ with [sharp](https://sharp.pixelplumbing.com/) (`top.svg`/`bottom.svg` →
 4. Light it with a key, a fill and a rim area light plus a soft world, film
    transparent, `Standard` view transform, and frame each view automatically
    (~62 mm lens, camera distance solved so the content fits the frame).
+5. Re-colour two materials by name: the switch housings (`switch`) are rendered
+   translucent (alpha 0.35) so the silkscreen underneath stays readable, and the
+   DIP/slide switch (`slide`) is solid red. Nothing else is touched — the board
+   artwork still comes only from the Gerbers.
+
+The published renders are 1280 px wide so the READMEs stay quick to load.
 
 The lighting is deliberately soft: the point is to show the artwork, not to
 blow out the highlights.
@@ -86,8 +92,8 @@ hatching. That is **real silkscreen**, straight out of the `CherryMX_9.75u`
 footprint in the Gerber (`Gerber_TopSilkscreenLayer.GTO`, 250 `G36` regions, no
 `GKO` cut-outs anywhere on the board) — it is the footprint's switch-body outline.
 It gets printed on the real board exactly as drawn, so if it is not wanted it has
-to be removed in the footprint itself. In `Assembled_View.png` the switches cover
-almost all of it.
+to be removed in the footprint itself. In `Assembled_View.png` the translucent
+switch housings let it show through.
 
 ## A note on the gold wordmark
 
