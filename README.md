@@ -179,6 +179,14 @@ The I2C expansion port makes add-ons straightforward: per-key RGB (WS2812B),
 an OLED status display, a rotary encoder, alternative case variants, and
 possibly a QMK/Vial port.
 
+## Acknowledgements
+
+Thanks to **[OSHWLab](https://oshwlab.com)** for supporting KeyConnect with a
+star, and for giving open-source hardware projects like this one a place to be
+shared, discovered, and built on.
+
+[![OSHWLab — ⭐ Star Support](https://img.shields.io/badge/OSHWLab-%E2%AD%90%20Star%20Support-1f6feb?style=flat-square)](https://oshwlab.com)
+
 ## License
 
 KeyConnect is released under two licenses:

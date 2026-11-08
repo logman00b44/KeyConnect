@@ -102,6 +102,12 @@ The modular design and I2C expansion port enable exciting add-ons:
 ![3D Enclosure Side](https://raw.githubusercontent.com/logman00b44/KeyConnect/refs/heads/main/mechanical/3D%20Enclosure/preview/3denclosure_side%20view.png)   
 
 
+## Acknowledgements
+
+Thanks to **[OSHWLab](https://oshwlab.com)** for supporting KeyConnect with a
+star. Their platform gives open-source hardware like this a place to be shared,
+discovered, and built on.
+
 ## Connect With Me
 **GitHub:** [@logman00b44](https://github.com/logman00b44)  
 **Email:** logmanbay@gmail.com  
