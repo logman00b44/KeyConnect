@@ -186,7 +186,7 @@ OSHWLab's prototyping-support program for open-source hardware, for backing
 KeyConnect, and to [OSHWLab](https://oshwlab.com) for hosting the project's
 write-up.
 
-[![Backed by OSHWLab Stars](https://img.shields.io/badge/Backed%20by-OSHWLab%20Stars%20%E2%AD%90-1f6feb?style=flat-square)](https://oshwlab.com/article/open-source-projects)
+[![Backed by OSHWLab Stars](https://img.shields.io/static/v1?label=Backed%20by&message=OSHWLab%20Stars&color=1f6feb&style=flat-square)](https://oshwlab.com/article/open-source-projects)
 
 ## License
 
