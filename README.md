@@ -181,11 +181,12 @@ possibly a QMK/Vial port.
 
 ## Acknowledgements
 
-Thanks to **[OSHWLab](https://oshwlab.com)** for supporting KeyConnect with a
-star, and for giving open-source hardware projects like this one a place to be
-shared, discovered, and built on.
+Thanks to **[OSHWLab Stars](https://oshwlab.com/article/open-source-projects)**,
+OSHWLab's prototyping-support program for open-source hardware, for backing
+KeyConnect, and to [OSHWLab](https://oshwlab.com) for hosting the project's
+write-up.
 
-[![OSHWLab — ⭐ Star Support](https://img.shields.io/badge/OSHWLab-%E2%AD%90%20Star%20Support-1f6feb?style=flat-square)](https://oshwlab.com)
+[![Backed by OSHWLab Stars](https://img.shields.io/badge/Backed%20by-OSHWLab%20Stars%20%E2%AD%90-1f6feb?style=flat-square)](https://oshwlab.com/article/open-source-projects)
 
 ## License
 

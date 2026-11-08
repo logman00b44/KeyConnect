@@ -104,9 +104,9 @@ The modular design and I2C expansion port enable exciting add-ons:
 
 ## Acknowledgements
 
-Thanks to **[OSHWLab](https://oshwlab.com)** for supporting KeyConnect with a
-star. Their platform gives open-source hardware like this a place to be shared,
-discovered, and built on.
+Thanks to **[OSHWLab Stars](https://oshwlab.com/article/open-source-projects)**,
+OSHWLab's prototyping-support program for open-source hardware, for backing
+KeyConnect.
 
 ## Connect With Me
 **GitHub:** [@logman00b44](https://github.com/logman00b44)  
