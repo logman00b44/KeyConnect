@@ -48,8 +48,8 @@ Indices match `KEY_PINS[]` in `main.c`:
 | H | PA7 | Ctrl+F (Find) | P | PB10 | Ctrl+P (Print) |
 
 > ⚠️ **Hardware note:** the current R1 board routes `PA7` and `PB0` to the same
-> net, so physical keys **H** and **I** (indices 7 and 8) read identically. This
-> is a board revision issue, noted in `main.c`; it is not a firmware bug.
+> net, so physical keys **H** and **I** (indices 7 and 8) POSSIBLY read identically. This
+> is a board revision issue, noted in `main.c`; it is not a firmware bug as far as i know. It's not exact yet.
 
 ## Configuration protocol
 
