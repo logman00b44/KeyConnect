@@ -167,12 +167,6 @@ edits mappings, and saves them to flash.
 | Host configurator | ✅ CLI + WinUI 3 GUI source |
 | 3D case | ⏳ In development |
 
-### Known issues
-
-- On the current board the `PA7` and `PB0` traces are shorted, so the physical
-  keys that use them (`H` and `I`) report the same keycode. See
-  [`firmware/README.md`](firmware/README.md) for details.
-
 ## Future ideas
 
 The I2C expansion port makes add-ons straightforward: per-key RGB (WS2812B),
